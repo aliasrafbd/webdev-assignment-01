@@ -254,7 +254,7 @@ nav .nav-title {
 
 /* footer styles  */
 
-.footer {
+.footer-icon {
     display: flex;
     gap: 25px;
     align-items: center;
@@ -262,6 +262,12 @@ nav .nav-title {
     margin: 74px 245px 15px;
 }
 
+.scroll-top {
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+}
 .footer-title {
     font-size: 16px;
 }

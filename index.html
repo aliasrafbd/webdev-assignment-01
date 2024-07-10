@@ -14,7 +14,7 @@
     <!-- header section -->
     <header class="header">
         <nav class="nav">
-            <h3 class="nav-title">Ali A.</h3>
+            <h3 class="nav-title" id="top">Ali A.</h3>
             <a href=""><button class="btn-primary">Download Resume</button></a>
         </nav>
 
@@ -23,7 +23,7 @@
                 <img src="assets/Group.png" alt="">
                 <h3 class="banner-title">"In the near future, I hope to become a Developer."</h3>
                 <p class="banner-description">I am Asraf Ali. I was trying to learn Web Design and Development from various platform. I have been trying to learn it from 2018 when I was having my B.Sc in CSE in Dhaka from a private university named BUBT. But I could not have it. I know Jhankar Mahbub vai from 2019-2020. When he launched Programming related course I was very excited. One day I will learn from Jhankar vai. I was busy for governement job preparation. For that reason I could not do it. Now I am doing a Govt. (Autonomou) job in Bangladesh (CTG). My company name is PGCB. Here, In office time, I got lots of free time. So I planned for having a skill. Therefore, I got admitted in 2024</p>
-                <a href=""><button class="btn-primary contact-btn">Contact with me</button></a>
+                <input class="btn-primary" type="button" onClick="document.getElementById('footer').scrollIntoView();" value="Contact with me" />
             </div>
         </div>
     </header>
@@ -108,14 +108,19 @@
     </main>
     
     <!-- footer section  -->
-    <footer class="footer">
-        <h5 class="footer-title">An Open Commitment by Ali A.</h5>
-        <div class="footer-icons">
-            <a href="https://www.facebook.com/aliasraf15" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://github.com/aliasrafbd" target="_blank><i class="fab fa-github"></i></a>
-            <a href="https://bd.linkedin.com/" target="_blank><i class="fab fa-linkedin"></i></a>
+    <footer id="footer">
+        <div class="footer-icon">
+            <h5 class="footer-title">An Open Commitment by Ali A.</h5>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/aliasraf15" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/aliasrafbd" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://bd.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="scroll-top">
+            <input type="button" onClick="document.getElementById('top').scrollIntoView();" value="Go to Top"/>
         </div>
     </footer>
-    
+
 </body>
 </html>
