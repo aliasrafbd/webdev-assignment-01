@@ -99,6 +99,12 @@ nav .nav-title {
     color: #0D1321;
 }
 
+.web-dev-btn:hover {
+    color: blue;
+    cursor: pointer;
+
+}
+
 
 .web-dev-description {
     line-height: 26px;
