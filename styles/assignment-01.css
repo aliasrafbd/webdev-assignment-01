@@ -73,7 +73,9 @@ nav .nav-title {
 
 .banner-description {
     padding-bottom: 32px;
-    font-size: 16px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
 }
 
 /* Web Dev Style  */
@@ -245,3 +247,26 @@ nav .nav-title {
     
 }
 
+.support-input-button:hover {
+    cursor: pointer;    
+}
+
+
+/* footer styles  */
+
+.footer {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 74px 245px 15px;
+}
+
+.footer-title {
+    font-size: 16px;
+}
+
+.footer-icons {
+    font-size: 20px;
+ 
+}
