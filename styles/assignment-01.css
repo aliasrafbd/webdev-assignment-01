@@ -64,6 +64,13 @@ nav .nav-title {
 
 }
 
+.banner-content input:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+
+
 .banner-title {
     font-weight: 800;
     font-size: 48px;
