@@ -176,5 +176,72 @@ nav .nav-title {
 }
 
 .learn-more:hover {
-    color: blue
+    color: blue;
+    
 }
+
+/* Support Styles  */
+
+.support{
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    height: 313px;
+    margin: 74px 245px 15px;
+  }
+
+.support::before{
+  background-color: rgba(255, 255, 255, 0.9);
+  content: '';
+  display: block;
+  position: absolute;
+  
+}
+
+
+.support-content{
+    margin: 0 150px;
+}
+
+.support-title {
+    padding: 35px 0 5px 0;
+    color: #FFFFFF;
+}
+
+.support-description {
+    padding-top: 25px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    padding-bottom: 35px;
+}
+
+
+.support-input {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
+
+.support-input input[type="text"] {
+    width: 548px;
+    height: 57px;
+    background-color: #FFFFFF ;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+.support-input-button {
+    width: 120px;
+    height: 57px;
+    background-color: #FFFFFF ;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    
+}
+
