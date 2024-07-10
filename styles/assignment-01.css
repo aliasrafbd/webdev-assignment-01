@@ -79,9 +79,102 @@ nav .nav-title {
 /* Web Dev Style  */
 
 .web-dev {
-    margin: ;
+    margin: 74px 245px 0px;
+}
+
+.web-dev-title, .inspiration-title {
+    font-size: 32px;
+}
+
+.web-dev-btn {
+    font-size: 20px;
+    color: #0D1321;
 }
 
 
+.web-dev-description, .inspiration-description {
+    line-height: 26px;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.web-dev-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.web-dev-left-title {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.web-dev-left-description {
+    padding: 16px 0 32px 0;
+}
+
+.web-dev-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 100px;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.web-dev-3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    padding-top: 80px;
+}
+
+/* Inspiration Styles */
+
+.inspiration {
+    margin: 74px 245px 0px;
+    padding-bottom: 50px;
+}
 
 
+/* Current Target Styles  */
+
+
+.current-target {
+    margin: 74px 245px 0px;
+}
+
+.current-target-content {
+    display: flex;
+    padding-bottom: 50px;
+    align-items: center;
+    gap: 25px;
+}
+
+.current-target-logo {
+    padding: 10px 0;
+}
+.current-target-title {
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+.current-target-description {
+    font-size: 16px;
+    color: #0D1321;
+    padding-bottom: 15px;
+}
+
+.learn-more {
+    color: #0D1321;
+    text-decoration: none;
+    border-bottom: 1px solid #0D1321;
+}
+
+.learn-more:hover {
+    color: blue
+}
