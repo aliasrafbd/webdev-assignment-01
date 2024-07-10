@@ -25,6 +25,7 @@
     text-align: center;
 }
 
+
 /* nav style  */
 .nav {
     display: flex;
@@ -81,12 +82,17 @@ nav .nav-title {
 /* Web Dev Style  */
 
 .web-dev {
-    margin: 74px 245px 0px;
+    background-color: rgb(234, 241, 241);
+    border-radius: 20px;
+    margin: 36px 70px 26px;
+    padding: 35px 15px; 
 }
 
 .web-dev-title, .inspiration-title {
     font-size: 32px;
+    margin: 30px 245px 15px;
 }
+
 
 .web-dev-btn {
     font-size: 20px;
@@ -94,11 +100,30 @@ nav .nav-title {
 }
 
 
-.web-dev-description, .inspiration-description {
+.web-dev-description {
     line-height: 26px;
     font-size: 16px;
-    padding-top: 24px;
-    padding-bottom: 48px;
+    padding: 24px 0px 24px;
+    margin: 30px 245px 15px;
+    text-align: center;
+}
+
+.inspiration-description {
+    line-height: 26px;
+    font-size: 16px;
+    padding: 24px 55px 48px;
+    margin: 30px 95px 15px;
+}
+
+.iframe-border {
+    border: 1px solid rgb(163, 163, 167);
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+
+.iframe-border iframe {
+    border-radius: 10px;
 }
 
 .web-dev-1 {
@@ -106,7 +131,11 @@ nav .nav-title {
     justify-content: space-between;
     gap: 100px;
     align-items: center;
-    padding-top: 40px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 1px;
+    background-color: cyan;
+    margin: 30px 245px 0px;
 }
 
 .web-dev-left-title {
@@ -124,7 +153,10 @@ nav .nav-title {
     flex-direction: row-reverse;
     gap: 100px;
     align-items: center;
-    padding-top: 80px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 30px 245px 15px;
+    background-color: rgb(243, 160, 145);
 }
 
 .web-dev-3 {
@@ -132,7 +164,10 @@ nav .nav-title {
     justify-content: space-between;
     gap: 100px;
     align-items: center;
-    padding-top: 80px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 30px 245px 15px;
+    background-color: rgb(200, 238, 97);
 }
 
 /* Inspiration Styles */
@@ -147,14 +182,33 @@ nav .nav-title {
 
 
 .current-target {
-    margin: 74px 245px 0px;
+    margin: 30px 310px;
+
 }
 
 .current-target-content {
     display: flex;
-    padding-bottom: 50px;
-    align-items: center;
-    gap: 25px;
+    /* align-items: center;  */
+    gap: 10px;
+    justify-content: center;
+}
+
+.current-target-content-one {
+    background-color: rgb(236, 221, 221);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.current-target-content-two {
+    background-color: rgb(156, 163, 163);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.current-target-content-three {
+    background-color: rgb(221, 255, 234);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .current-target-logo {
@@ -168,7 +222,7 @@ nav .nav-title {
 .current-target-description {
     font-size: 16px;
     color: #0D1321;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 
 .learn-more {
@@ -191,11 +245,12 @@ nav .nav-title {
     position: relative;
     background-position: center;
     height: 313px;
-    margin: 74px 245px 15px;
+    margin: 74px 304px 15px;
+    border-radius: 20px;
   }
 
-.support::before{
-  background-color: rgba(255, 255, 255, 0.9);
+.support::after{
+  background-color: rgba(37, 36, 36, 0.3);
   content: '';
   display: block;
   position: absolute;
@@ -233,7 +288,7 @@ nav .nav-title {
     background-color: #FFFFFF ;
     border-radius: 20px;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
     padding: 0 5px;
 }
 
@@ -243,7 +298,7 @@ nav .nav-title {
     background-color: #FFFFFF ;
     border-radius: 10px;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
     
 }
 
@@ -259,7 +314,7 @@ nav .nav-title {
     gap: 25px;
     align-items: center;
     justify-content: space-between;
-    margin: 74px 245px 15px;
+    margin: 74px 304px 15px;
 }
 
 .scroll-top {
@@ -268,9 +323,23 @@ nav .nav-title {
     border: none;
     border-radius: 10px;
 }
+
+.scroll-top button {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: cyan;
+}
+
+.scroll-top button:hover {
+    cursor: pointer;
+}
+
 .footer-title {
     font-size: 16px;
 }
+
 
 .footer-icons {
     font-size: 20px;
